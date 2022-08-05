@@ -1,34 +1,19 @@
-interface Pet  {
-  firsName: string;
- }
-interface Pet {
-  talk:() => void;
+type User = { email: string };
+type Sale = { price: number; };
+
+interface Get<T> {
+  get(id: number): Promise<T>
 }
 
-interface Person  {
-  name: string;
-  age: number;
-  pets:Array<Pet>
+const userService: Get<User> = {
+  async get(id: number): Promise<User> {
+    return { email: '' };
+  }
 }
 
-const Cleiton: Person = {
-  name: 'Cleiton',
-  age: 30,
-  pets: [
-    {
-    firsName: 'Adora', 
-    talk: () => {console.log('Meow')}
-    }
-]
+const saleService: Get<Sale> = {
+  async get(id: number): Promise<Sale> {
+    return { price: 0 };
+  }
 }
 
-const Gaby: Person = {
-  name: 'Gaby',
-  age: 30,
-  pets: [
-    {
-      firsName: 'Tick', 
-      talk: () => {console.log('Meow')}
-    }
-]
-}
