@@ -1,9 +1,9 @@
-type Pet = {
+interface Pet  {
   firsName: string;
   talk:() => void;
 }
 
-type Person = {
+interface Person  {
   name: string;
   age: number;
   pets:Array<Pet>
