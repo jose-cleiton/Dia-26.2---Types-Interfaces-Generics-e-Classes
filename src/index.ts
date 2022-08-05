@@ -1,5 +1,6 @@
 type Pet = {
-  name: string;
+  firsName: string;
+  talk:() => void;
 }
 
 type Person = {
@@ -11,11 +12,21 @@ type Person = {
 const Cleiton: Person = {
   name: 'Cleiton',
   age: 30,
-  pets: [{name: 'Adora'}]
+  pets: [
+    {
+    firsName: 'Adora', 
+    talk: () => {console.log('Meow')}
+    }
+]
 }
 
 const Gaby: Person = {
   name: 'Gaby',
   age: 30,
-  pets: [{name: 'Tick'}]
+  pets: [
+    {
+      firsName: 'Tick', 
+      talk: () => {console.log('Meow')}
+    }
+]
 }
