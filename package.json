@@ -1,0 +1,23 @@
+{
+  "name": "dia-26.2---types-interfaces-generics-e-classes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jose-cleiton/Dia-26.2---Types-Interfaces-Generics-e-Classes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jose-cleiton/Dia-26.2---Types-Interfaces-Generics-e-Classes/issues"
+  },
+  "homepage": "https://github.com/jose-cleiton/Dia-26.2---Types-Interfaces-Generics-e-Classes#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
