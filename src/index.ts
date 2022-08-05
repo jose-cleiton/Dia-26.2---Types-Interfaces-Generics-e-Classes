@@ -1,5 +1,7 @@
 interface Pet  {
   firsName: string;
+ }
+interface Pet {
   talk:() => void;
 }
 
